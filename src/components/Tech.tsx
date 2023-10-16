@@ -1,9 +1,7 @@
 import React from 'react'
 
-const Tech = () => {
+export const Tech = () => {
   return (
     <div>Tech</div>
   )
 }
-
-export default Tech
