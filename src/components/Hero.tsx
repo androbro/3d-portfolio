@@ -1,7 +1,5 @@
 import React from 'react'
-import { motion } from 'framer-motion'
 import { styles } from '../styles'
-import { ComputersCanvas } from './canvas'
 
 export const Hero = () => {
 	return (
@@ -17,7 +15,6 @@ export const Hero = () => {
 					<p className={`${styles.heroSubText} text-white-100 mt-2`}> I develop web applications, user <br className='sm:block hidden'/> interfaces and mobile applications</p>
 				</div>
 			</div>
-				<ComputersCanvas />
 		</section>
 	)
 }
